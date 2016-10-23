@@ -1,0 +1,61 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Biltis</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Office</th>
+      <th>H 0</th>
+      <th>Consigner</th>
+      <th>Consignee</th>
+      <th>L r no</th>
+      <th>Bar code</th>
+      <th>Booking date</th>
+      <th>Invoice no</th>
+      <th>Goods</th>
+      <th>Frieght</th>
+      <th>Actual weight</th>
+      <th>Changed weight</th>
+      <th>Goods value</th>
+      <th>Transport mode</th>
+      <th>Tin no</th>
+      <th>Total</th>
+      <th>Client</th>
+      <th>Company</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @biltis.each do |bilti| %>
+      <tr>
+        <td><%= bilti.office %></td>
+        <td><%= bilti.h_0 %></td>
+        <td><%= bilti.consigner %></td>
+        <td><%= bilti.consignee %></td>
+        <td><%= bilti.l_r_no %></td>
+        <td><%= bilti.bar_code %></td>
+        <td><%= bilti.booking_date %></td>
+        <td><%= bilti.invoice_no %></td>
+        <td><%= bilti.goods %></td>
+        <td><%= bilti.frieght %></td>
+        <td><%= bilti.actual_weight %></td>
+        <td><%= bilti.changed_weight %></td>
+        <td><%= bilti.goods_value %></td>
+        <td><%= bilti.transport_mode %></td>
+        <td><%= bilti.tin_no %></td>
+        <td><%= bilti.total %></td>
+        <td><%= bilti.client %></td>
+        <td><%= bilti.company %></td>
+        <td><%= link_to 'Show', bilti %></td>
+        <td><%= link_to 'Edit', edit_bilti_path(bilti) %></td>
+        <td><%= link_to 'Destroy', bilti, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Bilti', new_bilti_path %>

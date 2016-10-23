@@ -1,0 +1,41 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  office: MyString
+  h_0: MyString
+  consigner: MyString
+  consignee: MyString
+  l_r_no: 1
+  bar_code: MyString
+  booking_date: 2016-10-22 23:44:54
+  invoice_no: MyString
+  goods: MyString
+  frieght: false
+  actual_weight: 1.5
+  changed_weight: 1.5
+  goods_value: 1.5
+  transport_mode: 1
+  tin_no: MyString
+  total: 1.5
+  client_id: 
+  company_id: 
+
+two:
+  office: MyString
+  h_0: MyString
+  consigner: MyString
+  consignee: MyString
+  l_r_no: 1
+  bar_code: MyString
+  booking_date: 2016-10-22 23:44:54
+  invoice_no: MyString
+  goods: MyString
+  frieght: false
+  actual_weight: 1.5
+  changed_weight: 1.5
+  goods_value: 1.5
+  transport_mode: 1
+  tin_no: MyString
+  total: 1.5
+  client_id: 
+  company_id: 

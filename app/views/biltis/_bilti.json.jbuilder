@@ -1,0 +1,2 @@
+json.extract! bilti, :id, :office, :h_0, :consigner, :consignee, :l_r_no, :bar_code, :booking_date, :invoice_no, :goods, :frieght, :actual_weight, :changed_weight, :goods_value, :transport_mode, :tin_no, :total, :client_id, :company_id, :created_at, :updated_at
+json.url bilti_url(bilti, format: :json)
